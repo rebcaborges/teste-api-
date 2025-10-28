@@ -4,7 +4,7 @@ pipeline{
      stages {
        stage('Clonar repositorio')  {
          steps{
-           git branch: 'main', url:  "https://github.com/carlosconca/exercicio-api.git"
+           git branch: 'main', url:  "https://github.com/rebecaborges/teste-api.git"
          }
        }
        stage('Instalar dependecias')  {
